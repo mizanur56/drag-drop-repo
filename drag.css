@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgba(239, 239, 223, 0.914);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.appbody {
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted gray;
+  border-radius: 5px;
+}
+.appbody:active {
+  border: 3px solid rgb(122, 209, 55);
+}
+
+.icon {
+  font-size: 100px;
+  color: rgb(57, 202, 57);
+}
+
+.appbody p {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.appbody button {
+  padding: 10px 15px;
+  color: rgba(4, 129, 0, 0.99);
+  font-size: 1rem;
+  cursor: pointer;
+}
